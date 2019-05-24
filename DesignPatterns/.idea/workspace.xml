@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd892f5-d58e-4666-8367-9f8313367937" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algo/leetcode9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/Des.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/Observer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/PhoneDisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/WeatherStation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObeserverPattern/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projA/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +185,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
