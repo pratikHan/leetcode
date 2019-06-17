@@ -17,4 +17,4 @@ def paracheck(p_set):
 
     return s.isEmpty()
 
-print("TRUE") if paracheck("({[]") else print("False")
+print("TRUE") if paracheck("(]") else print("False")
