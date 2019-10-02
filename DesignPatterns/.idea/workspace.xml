@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd892f5-d58e-4666-8367-9f8313367937" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algo/leetcode15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuilderPattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/BinarySearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/leetcode20.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/leetcode20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/leetcode35.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/leetcode35.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryPattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryPattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SingletonPattern/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonPattern/Singleton.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ObeserverPattern/WeatherStation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingletonPattern/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -53,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BuilderPattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="990">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FacadePattern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -134,6 +125,7 @@
         <option value="$PROJECT_DIR$/SingletonPattern/Singleton.py" />
         <option value="$PROJECT_DIR$/FactoryPattern.py" />
         <option value="$PROJECT_DIR$/BuilderPattern.py" />
+        <option value="$PROJECT_DIR$/FacadePattern.py" />
       </list>
     </option>
   </component>
@@ -150,17 +142,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -213,7 +195,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24893919" />
@@ -250,6 +231,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryPattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuilderPattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -290,17 +285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryPattern.py">
+    <entry file="file://$PROJECT_DIR$/FacadePattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuilderPattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="237">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
