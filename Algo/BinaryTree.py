@@ -41,9 +41,41 @@ def display(node):
     if node.right is not None:
         display(node.right)
 
+def inorder(node):
+    if node is None:
+        return
+    else:
+        inorder(node.left)
+        print(node.data)
+        inorder(node.right)
+
+
+def preOrder(node):
+
+        if node is None:
+            return
+        else:
+            print(node.data)
+            preOrder(node.left)
+            preOrder(node.right)
+
+def postOrder(node):
+
+        if node is None:
+            return
+        else:
+            postOrder(node.left)
+            postOrder(node.right)
+            print(node.data)
+
 root = None
 root = insert(root,4)
 insert(root,2)
 insert(root,3)
 insert(root,6)
-display(root)
+
+inorder(root)
+print("#preorder")
+preOrder(root)
+print("#postorder")
+postOrder(root)
