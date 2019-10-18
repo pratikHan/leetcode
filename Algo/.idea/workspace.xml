@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76122bd8-201d-4be6-899e-d85778f80ca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crack/Ch3/Queues.py" beforeDir="false" afterPath="$PROJECT_DIR$/crack/Ch3/Queues.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,40 +16,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1600">
               <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crack/Ch3/chapterThree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crack/Ch3/Queues.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1373">
-              <caret line="129" column="15" lean-forward="true" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py">
+        <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinarySearch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -97,10 +82,10 @@
         <option value="$PROJECT_DIR$/venv/crack/Node.py" />
         <option value="$PROJECT_DIR$/BinaryTree.py" />
         <option value="$PROJECT_DIR$/crack/ch1/chapterone.py" />
-        <option value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
         <option value="$PROJECT_DIR$/crack/Ch3/chapterThree.py" />
         <option value="$PROJECT_DIR$/crack/Ch3/Queues.py" />
         <option value="$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py" />
+        <option value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
       </list>
     </option>
   </component>
@@ -143,7 +128,8 @@
             <path>
               <item name="Algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algo" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="crack" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees and Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,11 +230,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crack/dynamic programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crack/Trees and Graphs" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,7 +272,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3057953" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19235511" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,9 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
@@ -415,48 +398,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/crack/Ch3/chapterThree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Ch3/Queues.py">
+    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crack/Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="129" column="15" lean-forward="true" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+        <state relative-caret-position="678">
+          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="616">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crack/Ch3/Queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
         </state>
       </provider>
     </entry>
