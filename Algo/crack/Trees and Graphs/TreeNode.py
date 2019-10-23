@@ -1,3 +1,4 @@
+from collections import deque
 class Node(object):
 
     def __init__(self,data):
@@ -80,6 +81,22 @@ class Tree(object):
             print(node.data)
             self.inOrder(node.right)
 
+    def preOrder(self, node):
+        if node is None:
+            return
+        else:
+            print(node.data)
+            self.preOrder(node.left)
+            self.preOrder(node.right)
+
+    def postOrder(self, node):
+
+        if node is None:
+            return
+        else:
+            self.postOrder(node.left)
+            self.postOrder(node.right)
+            print(node.data)
 
 ##Wron Logic
     def isBinarySearchTree(self, node):
@@ -106,18 +123,78 @@ class Tree(object):
         return True
 
 
+    def findMin(self,root):
+        if root is None:
+            return
+        else:
+            while root.left is not None:
+                root = root.left
+            return root
+
+    def findHeight(self,root):
+
+        if root is None:
+            return -1
+
+        hleft = self.findHeight(root.left)
+        hright = self.findHeight(root.right)
+
+        return max(hleft, hright) + 1
+
+    que = deque()
+    def bfs(self, root):
+
+        if root is None:
+            return
+
+        if root.left is not None:
+            self.que.append(root.left)
+        if root.right is not None:
+            self.que.append(root.right)
+
+        print(root.data)
+
+        if len(self.que) == 0:
+            return
+
+        self.bfs(deque.popleft(self.que))
 
 
-n = Node(8)
+    def isBST(self, node, prev):
+        if node is None:
+            return
+        else:
+            self.isBST(node.left, prev)
+
+            print(prev)
+            if node.data < prev.index(1):
+                return False
+            else:
+                prev.append(node.data)
+
+            self.isBST(node.right, prev)
+
+        return True
+
+
+
+
+n = Node(9)
 t = Tree()
-t.insertNode(n,20)
-t.insertNode(n,4)
 t.insertNode(n,7)
-t.insertNode(n,3)
 t.insertNode(n,12)
+t.insertNode(n,4)
+t.insertNode(n,8)
+t.insertNode(n,10)
 
-t.insertNode(n,16)
+t.insertNode(n,14)
+t.insertNode(n,3)
+t.insertNode(n,5)
 t.insertNode(n,6)
+t.insertNode(n,11)
+t.insertNode(n,13)
+t.insertNode(n,15)
+
 
 t.inOrder(n)
 
@@ -137,10 +214,34 @@ t.insertNode(n,20)
 t.inOrder(n)
 
 
-print("################# IS Binary treee:")
+print("################# Find Min in Binary Tree:")
 
-print(t.isBinarySearchTree(p))
+print(t.findMin(n).data)
+
+print("###### Find Height of bst")
+print(t.findHeight(n))
+
+print("####Implement bfs")
+t.bfs(n)
+
+print("## preOrder")
+t.preOrder(n)
+
+print("############## POSt ORder traversal")
+t.postOrder(n)
 
 
+p = Node(6)
+q = Node(7)
+r = Node(8)
+p.right = r
+p.left = q
+
+print("###### is BST ")
+x = [9]
+print(t.isBST(p,x))
+
+print("### inorder again #####")
+print(t.inOrder(p))
 
 
