@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76122bd8-201d-4be6-899e-d85778f80ca0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" afterDir="false" />
     </list>
@@ -22,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+            <state relative-caret-position="4680">
+              <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -86,11 +96,12 @@
         <option value="$PROJECT_DIR$/crack/Ch3/Queues.py" />
         <option value="$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py" />
         <option value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
+        <option value="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -158,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dynamic">
+  <component name="RunManager" selected="Python.graph">
     <configuration name="Crack" type="PythonConfigurationType" factoryName="Python">
       <module name="Algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="graph" type="PythonConfigurationType" factoryName="Python">
       <module name="Algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,7 +245,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +258,7 @@
       <item itemvalue="Python.Crack" />
       <item itemvalue="Python.ch1" />
       <item itemvalue="Python.ch3" />
-      <item itemvalue="Python.dynamic" />
+      <item itemvalue="Python.graph" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -264,7 +275,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496464" />
@@ -445,8 +456,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+        <state relative-caret-position="4680">
+          <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>

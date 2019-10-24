@@ -125,7 +125,7 @@ class Tree(object):
 
     def findMin(self,root):
         if root is None:
-            return
+            return None
         else:
             while root.left is not None:
                 root = root.left
@@ -177,6 +177,40 @@ class Tree(object):
         return True
 
 
+    def deleteNodeA(self, node, data):
+
+        if node is None:
+            return node
+        elif data < node.data:
+            node.left = self.deleteNodeA(node.left, data)
+        elif data > node.data:
+            node.right = self.deleteNodeA(node.right,data)
+        else:
+            ## case 1
+            if node.left is None and node.right is None:
+                return None
+
+            elif node.left is None:
+                temp = node.right
+                return temp
+
+            elif node.right is None:
+                temp = node.left
+                return temp
+
+            else:
+                ## case 2 Childrens
+                temp = self.findMin(node.right)
+                node.right = self.deleteNodeA(node.right, temp.data)
+
+        return node
+
+
+
+
+
+
+
 
 
 n = Node(9)
@@ -198,8 +232,13 @@ t.insertNode(n,15)
 
 t.inOrder(n)
 
+t.deleteNode(n,10)
+
+print("#### After Deleteing node ")
+t.inOrder(n)
 
 
+"""
 print("##################")
 nodep = t.deleteNode(n,20)
 
@@ -243,5 +282,5 @@ print(t.isBST(p,x))
 
 print("### inorder again #####")
 print(t.inOrder(p))
-
+"""
 
