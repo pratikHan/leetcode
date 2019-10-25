@@ -18,13 +18,13 @@ class Tree(object):
             self.root = node
 
         if node is None:
-            return (Node(data))
+            return Node(data)
         else:
             if data < node.data:
-                node.left = self.insertNode(node.left,data)
+                node.left = self.insertNode(node.left, data)
 
             else:
-                node.right = self.insertNode(node.right,data)
+                node.right = self.insertNode(node.right, data)
 
         if node.left is not None:
             node.left.parent = node
@@ -207,11 +207,29 @@ class Tree(object):
 
 
 
+    def createBSTMinH(self,list,start,end):
+
+        if (start > end):
+            return None
+
+        mid = (start + end)//2
+
+
+        root = Node(list[mid])
+
+        root.left = self.createBSTMinH(list,start,mid-1)
+
+        root.right = self.createBSTMinH(list,mid + 1, end)
+
+        return root
 
 
 
 
 
+
+
+""""""""""
 
 n = Node(9)
 t = Tree()
@@ -229,6 +247,10 @@ t.insertNode(n,11)
 t.insertNode(n,13)
 t.insertNode(n,15)
 
+print(t.findHeight(n))
+
+
+
 
 t.inOrder(n)
 
@@ -238,7 +260,7 @@ print("#### After Deleteing node ")
 t.inOrder(n)
 
 
-"""
+
 print("##################")
 nodep = t.deleteNode(n,20)
 
@@ -283,4 +305,10 @@ print(t.isBST(p,x))
 print("### inorder again #####")
 print(t.inOrder(p))
 """
+
+n = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+t = Tree()
+temp = t.createBSTMinH(n,0,len(n)-1)
+t.inOrder(temp)
+print(t.findHeight(temp))
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76122bd8-201d-4be6-899e-d85778f80ca0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +21,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
+            <state relative-caret-position="2250">
+              <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
+            <state relative-caret-position="315">
               <caret line="117" column="19" lean-forward="true" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
             </state>
           </provider>
@@ -84,12 +84,12 @@
         <option value="$PROJECT_DIR$/crack/Ch3/chapterThree.py" />
         <option value="$PROJECT_DIR$/crack/Ch3/Queues.py" />
         <option value="$PROJECT_DIR$/crack/dynamic programming/Fibonacci.py" />
-        <option value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
         <option value="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" />
+        <option value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
@@ -234,7 +234,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,7 +272,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37114674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37114674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,17 +443,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
+    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
+        <state relative-caret-position="315">
+          <caret line="117" column="19" lean-forward="true" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/GraphNode.py">
+    <entry file="file://$PROJECT_DIR$/crack/Trees and Graphs/TreeNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="117" column="19" lean-forward="true" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+        <state relative-caret-position="2250">
+          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
         </state>
       </provider>
     </entry>
