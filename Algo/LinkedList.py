@@ -40,7 +40,7 @@ class LinkedList(object):
         current = self.head
         found = False
 
-        while current != None and not found:
+        while current is not None and not found:
             if current.getData() == item:
                 found = True
             else:

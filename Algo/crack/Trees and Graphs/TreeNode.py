@@ -1,4 +1,11 @@
 from collections import deque
+
+class LNode(object):
+
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
 class Node(object):
 
     def __init__(self,data):
@@ -223,13 +230,48 @@ class Tree(object):
 
         return root
 
+    ds = [None,None,None]
+
+    def ListinTrees(self,node,height):
+        """ Design a Tree such that at every depth
+            d you create d Linked Lists
+        """
+        if self.ds[height] is None:
+            self.ds[height] = LNode(node)
+        else:
+            temp = self.ds[height]
+            inserted = False
+
+            while temp is not None and not inserted:
+                if temp.next is None:
+                    temp.next = LNode(node)
+                    inserted = True
+                else:
+                    temp = temp.next
 
 
 
 
 
 
-""""""""""
+
+    def testRec(self,root,h):
+
+        if root is None:
+            return
+
+        else:
+            h += 1
+            self.testRec(root.left,h)
+            self.testRec(root.right,h)
+            print(" #Height is   " + str(h) + "  Data is  " + str(root.data))
+            self.ListinTrees(root.data,h)
+
+
+
+
+
+"""
 
 n = Node(9)
 t = Tree()
@@ -306,9 +348,15 @@ print("### inorder again #####")
 print(t.inOrder(p))
 """
 
-n = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+n = [1,2,3,4,5,6,7]
 t = Tree()
 temp = t.createBSTMinH(n,0,len(n)-1)
-t.inOrder(temp)
-print(t.findHeight(temp))
+#t.postOrder(temp)
 
+t.testRec(temp,-1)
+
+
+
+
+
+print("###### TEst with lists")

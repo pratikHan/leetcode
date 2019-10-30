@@ -72,7 +72,7 @@ class Graph(object):
         print("COUNT IS :"+str(c))
         return False
 
-
+        # create a linked list at each depth of a grabh
 
 
 
